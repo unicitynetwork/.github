@@ -1,7 +1,7 @@
 ## 🚀🚀🚀 Welcome to Unicity 🚀🚀🚀
 
 
-Unicity is a mult-layered developer platform for building, deploying and orchestrating off-chain crypto agents. 
+Unicity is a multi-layered developer platform for building, deploying and orchestrating off-chain crypto agents. 
 
 	
 						1. Proof of Work Trust Anchor
@@ -23,7 +23,7 @@ https://github.com/unicitynetwork/unicity-core
 https://github.com/unicitynetwork/unicity-go-base
 
 ### BFT Proof Aggregation Layer/ Trustless SMT Accumulator ###
-Proof Aggregation Layer: Distributed Hash Tree and Spase Merkle Tree implementations with and without with ZK Proof of non-deletion 
+Proof Aggregation Layer: Distributed Hash Tree and Sparse Merkle Tree implementations with and without ZK Proof of non-deletion 
 
 
 https://github.com/unicitynetwork/prefix-hash-tree
