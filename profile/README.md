@@ -1,54 +1,30 @@
 ## 🚀🚀🚀 Welcome to Unicity 🚀🚀🚀
 
 
-Unicity is a mult-layered developer platform for building, deploying and orchestrating off-chain crypto agents. 
+Unicity is a multi-layered developer platform for building, deploying and orchestrating off-chain crypto agents. Layers:
 
-	
-						1. Proof of Work Trust Anchor
-						2. BFT Consensus Layer 
-						3. Proof Aggregation Layer
-						4. State Transition Layer 
-						5. Agent Execution Layer
-						6. Agent Orchestration Layer
-
-
-### Proof of Work Trust Anchor ###
-Anchors the second layer and provides new coins through mining which can then be extracted and used off-chain in the Agent layers. Fork of Bitcoin with RandomX hash function, 2 min block times. Written in C++
-https://github.com/unicitynetwork/alpha
-
-
-### BFT Consensus Layer ###
-Chained Hotstuff implementation of BFT Consensus. Anchors the Proof Aggregation Layer with one second rounds. Periodically publishes state root in Proof of Work layer. Written in Golang
-https://github.com/unicitynetwork/unicity-core
-https://github.com/unicitynetwork/unicity-go-base
-
-### BFT Proof Aggregation Layer/ Trustless SMT Accumulator ###
-Proof Aggregation Layer: Distributed Hash Tree and Spase Merkle Tree implementations with and without with ZK Proof of non-deletion 
-
-
-https://github.com/unicitynetwork/prefix-hash-tree
-Data structures for prefix hash tree. Written in JavaScript
-
-https://github.com/unicitynetwork/aggregators_net
-API for communication between aggregator layer and agent layer. Written in javascript
-
-https://github.com/unicitynetwork/nd-smt
-SMT with Compact non-deletion proof. Written in Python/Circom
+					1. Proof of Work Trust Anchor
+					2. BFT Consensus Layer 
+					3. Proof Aggregation Layer
+					4. State Transition Layer 
+					5. Agent Execution Layer
+					6. Agent Orchestration Layer
+ 
+1. **Proof of Work Trust Anchor**: Anchors the second layer and provides new coins through mining which can then be extracted and used off-chain in the Agent layers. Fork of Bitcoin with RandomX hash function, 2 min block times. Written in C++.
+    - [Unicity Alpha](https://github.com/unicitynetwork/alpha)
+2. **BFT Consensus Layer**: Chained Hotstuff implementation of BFT Consensus. Anchors the Proof Aggregation Layer with one-second rounds. Periodically publishes state root in Proof of Work layer. Written in Golang.
+    - [Unicity Core](https://github.com/unicitynetwork/unicity-core)
+    - [Unicity Go Base](https://github.com/unicitynetwork/unicity-go-base)
+3. **Proof Aggregation Layer/ Trustless SMT Accumulator**: Distributed Hash Tree and Sparse Merkle Tree implementations with and without ZK Proof of non-deletion. 
+    - [Prefix Hash Tree](https://github.com/unicitynetwork/prefix-hash-tree) (JavaScript)
+    - [Aggregators Net](https://github.com/unicitynetwork/aggregators_net) (JavaScript)
+    - [ND-SMT](https://github.com/unicitynetwork/nd-smt) (Python/Circom)
+4. **State Transition Layer**: Implementation of agent state transitions. A transaction flow runtime facilitates and verifies an agent transition from one state to another according to application-specific rules.
+    - [Transaction Flow Engine](https://github.com/unicitynetwork/tx-flow-engine) (JavaScript)
+5. **Agent Execution Layer**: Under development.
+6. **Agent Orchestration Layer**: Under development.
 
 
-### State Transition Layer ###
-
-Implementation of agent state transitions. A transaction flow runtime facilitates and verifies an agent transition from a state to another one according to application-specific rules. In order to perform a state transition, one has to provide to the runtime current state and the input (for instance, signature to unlock a given state, address representing the destination state and all sorts of auxiliary data needed to authorize transition to the new state).
-
-https://github.com/unicitynetwork/tx-flow-engine
-written in Javascript
-
-
-###Agent Execution Layer ###
-Under development
-
-###Agent Orchestration Layer ###
-Under development 
 
 
 
