@@ -21,7 +21,7 @@ Unicity is a multi-layered developer platform for building, deploying and orches
     - [ND-SMT](https://github.com/unicitynetwork/nd-smt) (Python/Circom)
 4. **Token Operations Layer**: Implementation of agent state transitions. A transaction flow runtime facilitates and verifies an agent transition from one state to another according to application-specific rules.
     - [Transaction Flow Engine](https://github.com/unicitynetwork/tx-flow-engine) (JavaScript)
-5. **Agent Execution Layer**: Prototyping using yjs,holepunch
+5. **Agent Execution Layer**: Prototyping using yjs, holepunch
 
 
 
