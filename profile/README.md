@@ -1,32 +1,58 @@
-## 🚀🚀🚀 Welcome to Unicity 🚀🚀🚀
+## 🚀 Welcome to Unicity
 
+**Unicity** is a multi-layered developer platform designed for building, deploying, and orchestrating off-chain peer-to-peer applications. It offers a modular architecture with distinct layers, each serving a unique role in the decentralized stack:
 
-Unicity is a multi-layered developer platform for building, deploying and orchestrating off-chain P2P applications. Layers:
+### 🔷 Layer Overview
 
-					1. Proof of Work Geneis 
-					2. BFT Consensus Layer 
-					3. ZK Prover Layer
-					4. Token Operations Layer 
-					5. Agent Execution Layer
-				
- 
-1. **Proof of Work Trust Anchor**: Anchors the second layer and provides new coins through mining which can then be extracted and used off-chain in the Agent layers. Fork of Bitcoin with RandomX hash function, 2 min block times. Written in C++.
-    - [Unicity Alpha](https://github.com/unicitynetwork/alpha)
-2. **BFT Consensus Layer**: Anchors the Proof Aggregation Layer with one-second rounds. Periodically publishes state root in Proof of Work layer. Written in Golang.
-    - [eth-unicity-anchor](https://github.com/unicitynetwork/eth-unicity-anchor)
-    - [Unicity Core](https://github.com/unicitynetwork/unicity-core)
-    - [Unicity Go Base](https://github.com/unicitynetwork/unicity-go-base)
-4. **Proof Aggregation Layer/ Trustless SMT Accumulator**: Distributed Hash Tree and Sparse Merkle Tree implementations with and without ZK Proof of non-deletion. 
-    - [Prefix Hash Tree](https://github.com/unicitynetwork/prefix-hash-tree) (JavaScript)
-    - [Aggregators Net](https://github.com/unicitynetwork/aggregators_net) (JavaScript)
-    - [ND-SMT](https://github.com/unicitynetwork/nd-smt) (Python/Circom)
-5. **Token Operations Layer**: Implementation of agent state transitions. A transaction flow runtime facilitates and verifies an agent transition from one state to another according to application-specific rules.
-    - [Transaction Flow Engine](https://github.com/unicitynetwork/tx-flow-engine) (JavaScript)
-6. **Agent Execution Layer**: Prototyping using yjs, holepunch
+1. **Proof of Work Genesis**  
+2. **BFT Consensus Layer**  
+3. **SMT Aggregation / ZK Prover Layer**  
+4. **Token State Transition Layer**  
+5. **Agent Execution Layer**
 
+---
 
+### 1. ⚒️ Proof of Work Trust Anchor
 
+Acts as the foundational trust layer, anchoring the entire system. New coins are mined and can be extracted for use in higher layers such as Agent Execution.  
+A Bitcoin fork using the **RandomX** hash function and a **2-minute block time**.
 
+- 🔗 [Unicity Alpha](https://github.com/unicitynetwork/alpha) (C++)
+
+---
+
+### 2. ⛓️ BFT Consensus Layer
+
+Provides fast (1-second rounds) Byzantine Fault Tolerant consensus to anchor the Proof Aggregation Layer. It periodically commits state roots to the Proof of Work chain.
+
+- 🔗 [eth-unicity-anchor](https://github.com/unicitynetwork/eth-unicity-anchor)  
+- 🔗 [Unicity Core](https://github.com/unicitynetwork/unicity-core) (Golang)
+
+---
+
+### 3. 🌲 Proof Aggregation / Trustless SMT Layer
+
+Implements Sparse Merkle Trees and Distributed Hash Trees with optional zero-knowledge proofs for non-deletion. Enables efficient, trust-minimized aggregation.
+
+- 🔗 [Aggregators Net](https://github.com/unicitynetwork/aggregators_net) (TypeScript)  
+- 🔗 [Prefix Hash Tree](https://github.com/unicitynetwork/prefix-hash-tree) (JavaScript)  
+- 🔗 [ND-SMT](https://github.com/unicitynetwork/nd-smt) (Python / Circom)
+
+---
+
+### 4. 💱 Token State Transition Layer
+
+Handles application-specific token state transitions with full SDK support for defining, validating, and applying rules.
+
+- 🔗 [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk) (TypeScript)
+
+---
+
+### 5. 🤖 Agent Execution Layer
+
+Enables off-chain execution of logic and stateful behavior via peer-to-peer agents. Currently in prototyping phase using **Yjs** and **Holepunch**.
+
+- 🚧 *Coming Soon*
 
 
 
