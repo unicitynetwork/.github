@@ -16,8 +16,9 @@ Welcome to **Unicity**, the multi-layered developer platform that revolutionizes
 
 Acts as the foundational trust layer, anchoring the entire system. New coins are mined and can be extracted for use in higher layers such as Agent Execution. A Bitcoin fork using the **RandomX** hash function and a **2-minute block time**.
 
-- 🔗 [Unicity Alpha](https://github.com/unicitynetwork/alpha) (C++)
-- 🔗 [Alpha-miner](https://github.com/unicitynetwork/alpha-miner)
+- 🔗 [Unicity Alpha](https://github.com/unicitynetwork/alpha) (full node implementation, C++)
+- 🔗 [Alpha-miner](https://github.com/unicitynetwork/alpha-miner) (mining software for mining Unicity's native Alpha)
+- 🔗 [Block explorer](https://www.unicity.network/)
 
 ---
 
@@ -62,15 +63,16 @@ Enables off-chain execution of logic and stateful behavior via peer-to-peer agen
 ### H1 2025
 - PoW/BFT/Aggregation layers
 - State Transition SDK
-- Testnet & Mainnet launch
+- Testnet launch
 - Mining pools
 
 ### H2 2025 📋
+- Mainnet launch
 - Agent SDK
+- Developer subscriptions
 - SMT sharding
 - Cross-chain bridges
 - Advanced ZK features
-- Developer subscriptions
 
 ## 🤝 Community & Support
 
