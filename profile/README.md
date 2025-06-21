@@ -2,9 +2,7 @@
 
 Welcome to **Unicity**, the multi-layered developer platform that revolutionizes how you build, deploy, and orchestrate off-chain peer-to-peer applications. You can start building on Unicity with its [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk), that makes complex state management as simple as defining business rules. Unicity platform offers a modular architecture with distinct layers, each serving a unique role in the decentralized stack:
 
----
-
-### 1. ⚒️ Proof of Work Layer
+### 1. ⚒️ Proof of Work
 
 Acts as the foundational trust layer, anchoring the entire system. New coins are mined and can be extracted for use in higher layers such as Agent Execution. A Bitcoin fork using the **RandomX** hash function and a **2-minute block time**.
 
@@ -14,7 +12,7 @@ Acts as the foundational trust layer, anchoring the entire system. New coins are
 
 ---
 
-### 2. ⛓️ BFT Consensus Layer
+### 2. ⛓️ BFT Consensus
 
 Provides fast (1-second rounds) Byzantine Fault Tolerant consensus to anchor the Proof Aggregation Layer. It periodically commits state roots to the Proof of Work chain.
 
@@ -23,7 +21,7 @@ Provides fast (1-second rounds) Byzantine Fault Tolerant consensus to anchor the
 
 ---
 
-### 3. 🌲 Proof Aggregation / Trustless SMT Layer
+### 3. 🌲 Proof Aggregation / Trustless SMT
 
 Implements Sparse Merkle Trees and Distributed Hash Trees with optional zero-knowledge proofs for non-deletion. Enables efficient, trust-minimized aggregation.
 
@@ -33,7 +31,7 @@ Implements Sparse Merkle Trees and Distributed Hash Trees with optional zero-kno
 
 ---
 
-### 4. 💱 State Transition SDK
+### 4. 💱 State Transition
 
 Start building on Unicity with the **State Transition SDK** - for managing assets on the Unicity Protocol, supporting off-chain state with on-chain security guarantees. The State Transition SDK is a TypeScript library that provides an off-chain token transaction framework. Tokens are managed, stored, and transferred off-chain with only cryptographic commitments published on-chain, ensuring privacy while preventing double-spending through single-spend proofs.
 
@@ -41,7 +39,7 @@ Start building on Unicity with the **State Transition SDK** - for managing asset
 
 ---
 
-### 5. 🤖 Agent SDK
+### 5. 🤖 Agent Execution
 
 Agent SDK provides a framework for the development, deployment and composability of verifiable off-chain Turing-complete computations. The SDK delivers APIs facilitating agnostic verifiable discovery, addressing, communication, storage and execution environment. Currently in prototyping phase using **Yjs** and **Holepunch**.
 
@@ -50,7 +48,6 @@ Agent SDK provides a framework for the development, deployment and composability
 ---
 
 ## 🗺️ Roadmap
-
 ### H1 2025
 - PoW/BFT/Aggregation layers
 - State Transition SDK
