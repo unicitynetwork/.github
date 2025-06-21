@@ -2,14 +2,6 @@
 
 Welcome to **Unicity**, the multi-layered developer platform that revolutionizes how you build, deploy, and orchestrate off-chain peer-to-peer applications. You can start building on Unicity with its [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk), that makes complex state management as simple as defining business rules. Unicity platform offers a modular architecture with distinct layers, each serving a unique role in the decentralized stack:
 
-### 🔷 Layer Overview
-
-1. **Proof of Work Layer**  
-2. **BFT Consensus Layer**  
-3. **SMT Aggregation / ZK Prover Layer**  
-4. **Token State Transition Layer**  
-5. **Agent Execution Layer**
-
 ---
 
 ### 1. ⚒️ Proof of Work Layer
@@ -41,18 +33,17 @@ Implements Sparse Merkle Trees and Distributed Hash Trees with optional zero-kno
 
 ---
 
-### 4. 💱 Token State Transition Layer
+### 4. 💱 State Transition SDK
 
-**Build next-generation decentralized applications and autonomous agents**. 
-Start building on Unicity with the **State Transition SDK**, that handles application-specific token state transitions with full SDK support for defining, validating, and applying custom business rules.
+Start building on Unicity with the **State Transition SDK** - for managing assets on the Unicity Protocol, supporting off-chain state with on-chain security guarantees. The State Transition SDK is a TypeScript library that provides an off-chain token transaction framework. Tokens are managed, stored, and transferred off-chain with only cryptographic commitments published on-chain, ensuring privacy while preventing double-spending through single-spend proofs.
 
 - 🔗 [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk) (TypeScript)
 
 ---
 
-### 5. 🤖 Agent Execution Layer
+### 5. 🤖 Agent SDK
 
-Enables off-chain execution of logic and stateful behavior via peer-to-peer agents. Currently in prototyping phase using **Yjs** and **Holepunch**.
+Agent SDK provides a framework for the development, deployment and composability of verifiable off-chain Turing-complete computations. The SDK delivers APIs facilitating agnostic verifiable discovery, addressing, communication, storage and execution environment. Currently in prototyping phase using **Yjs** and **Holepunch**.
 
 - 🚧 *Coming Soon*
 
