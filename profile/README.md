@@ -1,6 +1,6 @@
 ## 🚀 Welcome to Unicity
 
-Welcome to **Unicity**, the multi-layered developer platform that revolutionizes how you build, deploy, and orchestrate off-chain peer-to-peer applications. You can start building on Unicity with its [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk), that makes complex state management as simple as defining business rules. Unicity platform offers a modular architecture with distinct layers, each serving a unique role in the decentralized stack:
+Welcome to **Unicity**, the multi-layered developer platform for building, deploying, and orchestrating off-chain peer-to-peer decentralized applications. You can start building on Unicity with its [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk), that makes complex state management as simple as defining business rules. Unicity platform offers a modular architecture with distinct layers, each serving a unique role in the decentralized stack:
 
 ### 1. ⚒️ Proof of Work
 
