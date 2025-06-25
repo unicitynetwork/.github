@@ -5,7 +5,14 @@ to an infrastructure that (by enforcement of non-forking) prevents double spendi
 
 All blockchain designs Bitcoin, Ethereum, L1s L2s, rollups, sidechains etc. have followed the same core design principle for the last 17 years. There is a an append-only ledger of assets with computation happening on-chain, leading inevitably to competition for resources. Unicity is a fundamental redesign. All assets exist  off-chain, and each asset is its own ledger wiht only aggregate state transitions  recorded on-chain. This architectural shift unlocks off-chain computation giving orders of magnitude higher throughput and massively reduced friction for users deverlopers and agents
 
-You can start building on Unicity with its [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk), that makes complex state management as simple as defining business rules. Unicity platform offers a modular architecture with distinct layers, each serving a unique role in the decentralized stack:
+You can start mining here: https://github.com/unicitynetwork/alpha-miner
+
+whitepaper here: https://github.com/unicitynetwork/whitepaper/releases/tag/latest
+bluepaper here: https://github.com/unicitynetwork/aggr-layer-paper/releases/tag/latest
+block explorer here:  https://www.unicity.network/
+
+You can start building on Unicity with its [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk). Unicity platform offers a modular architecture with distinct layers, each serving a unique role in the decentralized stack:
+
 
 ### 1. ⚒️ Proof of Work
 
@@ -56,11 +63,9 @@ Agent SDK provides a framework for the development, deployment and composability
 ### H1 2025
 - PoW/BFT/Aggregation layers
 - State Transition SDK
-- Testnet launch
 - Mining pools
 
 ### H2 2025 📋
-- Mainnet launch
 - Agent SDK
 - Developer subscriptions
 - SMT sharding
