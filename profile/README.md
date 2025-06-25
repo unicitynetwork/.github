@@ -1,6 +1,11 @@
 ## 🚀 Welcome to Unicity
 
-Welcome to **Unicity**, the multi-layered developer platform for building, deploying, and orchestrating off-chain peer-to-peer decentralized applications. You can start building on Unicity with its [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk), that makes complex state management as simple as defining business rules. Unicity platform offers a modular architecture with distinct layers, each serving a unique role in the decentralized stack:
+Welcome to **Unicity**, the first blockchain platform in which all execution is off-chain. Assets are minted off-chain, transfers happen off-chain and smart contracts or "agents" execute off-chain, and the blockchain is reduced
+to an infrastructure that (by enforcement of non-forking) prevents double spending of off-chain assets, each of which is an independent blockchain. 
+
+All blockchain designs Bitcoin, Ethereum, L1s L2s, rollups, sidechains etc. have followed the same core design principle for the last 17 years. There is a an append-only ledger of assets with computation happening on-chain, leading inevitably to competition for resources. Unicity is a fundamental redesign. All assets exist  off-chain, and each asset is its own ledger wiht only aggregate state transitions  recorded on-chain. This architectural shift unlocks off-chain computation giving orders of magnitude higher throughput and massively reduced friction for users deverlopers and agents
+
+You can start building on Unicity with its [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk), that makes complex state management as simple as defining business rules. Unicity platform offers a modular architecture with distinct layers, each serving a unique role in the decentralized stack:
 
 ### 1. ⚒️ Proof of Work
 
