@@ -8,10 +8,14 @@ All blockchain designs Bitcoin, Ethereum, L1s L2s, rollups, sidechains etc. have
 You can start mining here: https://github.com/unicitynetwork/alpha-miner
 
 whitepaper here: https://github.com/unicitynetwork/whitepaper/releases/tag/latest
+
 bluepaper here: https://github.com/unicitynetwork/aggr-layer-paper/releases/tag/latest
+
 block explorer here:  https://www.unicity.network/
 
-You can start building on Unicity with its [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk). Unicity platform offers a modular architecture with distinct layers, each serving a unique role in the decentralized stack:
+You can start building on Unicity with its [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk). 
+
+The Unicity platform offers a modular architecture with distinct layers, each serving a unique role in the decentralized stack:
 
 
 ### 1. ⚒️ Proof of Work
