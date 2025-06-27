@@ -1,15 +1,14 @@
 ## 🚀 Welcome to Unicity
 
-Welcome to **Unicity**, the first blockchain platform in which all execution is off-chain. Assets are minted off-chain, transfers happen off-chain and smart contracts or "agents" execute off-chain, and the blockchain is reduced
-to an infrastructure that (by enforcement of non-forking) prevents double spending of off-chain assets. 
+Welcome to **Unicity**, the first blockchain platform in which all execution is off-chain. Assets are minted off-chain, transfers happen off-chain and smart contracts or "agents" execute off-chain, and the blockchain is reduced to an infrastructure that (by enforcement of non-forking) prevents double spending of off-chain assets. 
 
-All blockchain designs Bitcoin, Ethereum, L1s L2s, rollups, sidechains etc. have followed the same core design principle for the last 17 years. There is a an append-only shared ledger of assets with computation happening sequentially, leading inevitably to competition for resources. Unicity is a fundamental redesign. All assets exist  off-chain, and each asset is its own ledger wiht only aggregate state transitions recorded on-chain. This architectural shift unlocks off-chain computation giving orders of magnitude higher throughput and massively reduced friction for users developers and agents
+All blockchain designs Bitcoin, Ethereum, L1s L2s, rollups, sidechains etc. have followed the same core design principle for the last 17 years. There is a an append-only shared ledger of assets with computation happening sequentially on assets in the same shared statespace, leading inevitably to competition for resources. Unicity is a fundamental redesign. All assets exist off-chain, and each asset is its own ledger wiht only aggregate state transitions recorded on-chain. This architectural shift unlocks off-chain computation giving orders of magnitude higher throughput and massively reduced friction for users, developers and agents.
 
 You can start mining here: https://github.com/unicitynetwork/alpha-miner
 
 whitepaper here: https://github.com/unicitynetwork/whitepaper/releases/tag/latest
 
-bluepaper here: https://github.com/unicitynetwork/aggr-layer-paper/releases/tag/latest
+ZK bluepaper here: https://github.com/unicitynetwork/aggr-layer-paper/releases/tag/latest
 
 block explorer here:  https://www.unicity.network/
 
@@ -76,12 +75,9 @@ Agent SDK provides a framework for the development, deployment and composability
 - Developer subscriptions
 - SMT sharding
 - Cross-chain bridges
-- Advanced ZK features
+- Client side ZK
 
 ## 🤝 Community & Support
-
-### Developer Resources
-- **GitHub**: [unicitynetwork](https://github.com/unicitynetwork)
 
 ### Getting Help
 - **GitHub Issues**: [Report bugs and request features](https://github.com/unicitynetwork/.github/issues)
