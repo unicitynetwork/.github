@@ -12,6 +12,8 @@ ZK bluepaper here: https://github.com/unicitynetwork/aggr-layer-paper/releases/t
 
 block explorer here:  https://www.unicity.network/
 
+Discord link here: https://discord.gg/PGzNZT5uVp
+
 start building on Unicity with its [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk). 
 
 see the tech in action by playing Quake running in a Unicity agent here https://quake.unicity.network/
