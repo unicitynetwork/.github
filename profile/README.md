@@ -4,8 +4,8 @@ Welcome to **Unicity**, the first blockchain platform in which all execution is 
 
 All blockchain designs Bitcoin, Ethereum, L1s L2s, rollups, sidechains etc. have followed the same core design principle for the last 17 years. There is a an append-only shared ledger of assets with computation happening sequentially on assets in the same shared statespace, leading inevitably to competition for resources. Unicity is a fundamental redesign. All assets exist off-chain, and each asset is its own ledger with only aggregate state transitions recorded on-chain. This architectural shift unlocks off-chain computation giving orders of magnitude higher throughput and massively reduced friction for users, developers and agents.
 
-### How to Stat Mining in 5 minutes 
-Generate a wallet a mining address in one click using the offline wallet here https://unicitynetwork.github.io/offlinewallet/
+### How to Start Mining in 5 minutes 
+Generate a wallet and mining address in one click using the offline wallet here https://unicitynetwork.github.io/offlinewallet/
 Download the binary or build the miner client from source here https://github.com/unicitynetwork/alpha-miner
 Follow the instructions in alpha-miner to connect to a mining pool.
 
