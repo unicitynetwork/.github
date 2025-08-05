@@ -5,22 +5,19 @@ Welcome to **Unicity**, the first blockchain platform in which all execution is 
 All blockchain designs Bitcoin, Ethereum, L1s L2s, rollups, sidechains etc. have followed the same core design principle for the last 17 years. There is a an append-only shared ledger of assets with computation happening sequentially on assets in the same shared statespace, leading inevitably to competition for resources. Unicity is a fundamental redesign. All assets exist off-chain, and each asset is its own ledger with only aggregate state transitions recorded on-chain. This architectural shift unlocks off-chain computation giving orders of magnitude higher throughput and massively reduced friction for users, developers and agents.
 
 ### How to Start Mining in 5 minutes 
-Generate a wallet and mining address in one click using the offline wallet here https://unicitynetwork.github.io/offlinewallet/
-Download the binary or build the miner client from source here https://github.com/unicitynetwork/alpha-miner
-Follow the instructions in alpha-miner to connect to a mining pool.
+1. Generate a wallet and mining address with one click by using the offline wallet here https://unicitynetwork.github.io/offlinewallet/
+2. Download the binary or build the miner client from source here https://github.com/unicitynetwork/alpha-miner
+3. Follow the [instructions how to connect to a mining pool](https://github.com/unicitynetwork/alpha-miner?tab=readme-ov-file#pool-mining-stratum).
 
 ### Resources 
-whitepaper here: https://github.com/unicitynetwork/whitepaper/releases/tag/latest
-
-ZK bluepaper here: https://github.com/unicitynetwork/aggr-layer-paper/releases/tag/latest
-
-block explorer here:  https://www.unicity.network/
-
-Discord link here: https://discord.gg/PGzNZT5uVp
-
-start building on Unicity with its [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk). 
-
-see the tech in action by playing Quake running in a Unicity agent here https://quake.unicity.network/
+* Whitepaper here: https://github.com/unicitynetwork/whitepaper/releases/tag/latest
+* ZK bluepaper here: https://github.com/unicitynetwork/aggr-layer-paper/releases/tag/latest
+* Block explorer here: https://www.unicity.network/
+* Discord link here: https://discord.gg/PGzNZT5uVp
+* Start building on Unicity with its [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk)
+* See the tech in action by playing Quake running in a Unicity agent here https://quake.unicity.network/
+* [Unicity FAQ](https://docs.google.com/document/d/1cQ2Zom5zfk5HXj0fRlysYDarj245fIqO4sPfDYPCcTc/)
+* [Unicity Glossary](https://docs.google.com/document/d/1-6kmf5SqxGuQJGbtJ7wzUnBM7p8N8WsFgtFNH2x384A/)
 
 The Unicity platform offers a modular architecture with distinct layers, each serving a unique role in the decentralized stack:
 
