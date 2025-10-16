@@ -1,8 +1,8 @@
 ## 🚀 Welcome to Unicity
 
-Welcome to **Unicity**, the first blockchain platform in which all execution is off-chain. Assets are minted off-chain, transfers happen off-chain and smart contracts or "agents" execute off-chain, and the blockchain is reduced to an infrastructure that (by enforcement of non-forking) prevents double spending of off-chain assets. 
+Welcome to **Unicity**, the first blockchain platform in which all execution happens off-chain. Assets are minted off-chain, transfers happen off-chain and smart contracts or "agents" execute off-chain, and the blockchain is reduced to an infrastructure that (by enforcement of non-forking) prevents double spending of off-chain assets. 
 
-All blockchain designs Bitcoin, Ethereum, L1s L2s, rollups, sidechains etc. have followed the same core design principle for the last 17 years. There is a an append-only shared ledger of assets with computation happening sequentially on assets in the same shared statespace, leading inevitably to competition for resources. Unicity is a fundamental redesign. All assets exist off-chain, and each asset is its own ledger with only aggregate state transitions recorded on-chain. This architectural shift unlocks off-chain computation giving orders of magnitude higher throughput and massively reduced friction for users, developers and agents.
+All blockchain designs - Bitcoin, Ethereum, L1s, L2s, rollups, sidechains etc have followed the same core design principle for the last 17 years. There is a an append-only shared ledger of assets with computation happening sequentially on assets in the same shared statespace, leading inevitably to competition for resources. Unicity is a fundamental redesign. All assets exist off-chain, and each asset is its own ledger with only aggregate state transitions recorded on-chain. This architectural shift unlocks off-chain computation giving orders of magnitude higher throughput and massively reduced friction for users, developers and agents.
 
 ### How to Start Mining in 5 minutes 
 1. Generate a wallet and mining address with one click by using the offline wallet here https://unicitynetwork.github.io/offlinewallet/
@@ -12,12 +12,14 @@ All blockchain designs Bitcoin, Ethereum, L1s L2s, rollups, sidechains etc. have
 ### Resources 
 * Whitepaper here: https://github.com/unicitynetwork/whitepaper/releases/tag/latest
 * ZK bluepaper here: https://github.com/unicitynetwork/aggr-layer-paper/releases/tag/latest
+* Academic paper for peer review: [Unicity Execution Layer - Security Proof Paper](https://github.com/unicitynetwork/execution-model-tex/releases/download/latest/unicity-execution-layer.pdf)
 * Block explorer here: https://www.unicity.network/
 * Discord link here: https://discord.gg/PGzNZT5uVp
 * Start building on Unicity with its [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk)
 * See the tech in action by playing Quake running in a Unicity agent here https://quake.unicity.network/
 * [Unicity FAQ](https://docs.google.com/document/d/1cQ2Zom5zfk5HXj0fRlysYDarj245fIqO4sPfDYPCcTc/)
 * [Unicity Glossary](https://docs.google.com/document/d/1-6kmf5SqxGuQJGbtJ7wzUnBM7p8N8WsFgtFNH2x384A/)
+* [Unicity GUI Wallet](https://unicitynetwork.github.io/guiwallet/)
 
 The Unicity platform offers a modular architecture with distinct layers, each serving a unique role in the decentralized stack:
 
@@ -36,7 +38,6 @@ Acts as the foundational trust layer, anchoring the entire system. New coins are
 
 Provides fast (1-second rounds) Byzantine Fault Tolerant consensus to anchor the Proof Aggregation Layer. It periodically commits state roots to the Proof of Work chain.
 
-- 🔗 [eth-unicity-anchor](https://github.com/unicitynetwork/eth-unicity-anchor)  
 - 🔗 [Unicity Core](https://github.com/unicitynetwork/unicity-core) (Golang)
 
 ---
@@ -45,17 +46,17 @@ Provides fast (1-second rounds) Byzantine Fault Tolerant consensus to anchor the
 
 Implements Sparse Merkle Trees and Distributed Hash Trees with optional zero-knowledge proofs for non-deletion. Enables efficient, trust-minimized aggregation.
 
-- 🔗 [Aggregators Net](https://github.com/unicitynetwork/aggregators_net) (TypeScript)  
-- 🔗 [Prefix Hash Tree](https://github.com/unicitynetwork/prefix-hash-tree) (JavaScript)  
-- 🔗 [ND-SMT](https://github.com/unicitynetwork/nd-smt) (Python / Circom)
+- 🔗 [Aggregator Go](https://github.com/unicitynetwork/aggregator-go) (Golang)  
 
 ---
 
 ### 4. 💱 State Transition
 
-Start building on Unicity with the **State Transition SDK** - for managing assets on the Unicity Protocol, supporting off-chain state with on-chain security guarantees. The State Transition SDK is a TypeScript library that provides an off-chain token transaction framework. Tokens are managed, stored, and transferred off-chain with only cryptographic commitments published on-chain, ensuring privacy while preventing double-spending through single-spend proofs.
+Start building on Unicity with the **State Transition SDK** - for managing assets on the Unicity Protocol, supporting off-chain state with on-chain security guarantees. The State Transition SDK provides an off-chain token transaction framework. Tokens are managed, stored, and transferred off-chain with only cryptographic commitments published on-chain, ensuring privacy while preventing double-spending through single-spend proofs.
 
 - 🔗 [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk) (TypeScript)
+- 🔗 [State Transition SDK](https://github.com/unicitynetwork/java-state-transition-sdk) (Java)
+- 🔗 [State Transition SDK](https://github.com/unicitynetwork/rust-state-transition-sdk) (Rust, experimental)
 
 ---
 
