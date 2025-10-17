@@ -13,7 +13,7 @@ All blockchain designs - Bitcoin, Ethereum, L1s, L2s, rollups, sidechains etc ha
 * Whitepaper here: https://github.com/unicitynetwork/whitepaper/releases/tag/latest
 * ZK bluepaper here: https://github.com/unicitynetwork/aggr-layer-paper/releases/tag/latest
 * Academic paper for peer review: [Unicity Execution Layer - formal privacy and security model](https://github.com/unicitynetwork/execution-model-tex/releases/download/latest/unicity-execution-layer.pdf)
-* Block explorer here: https://www.unicity.network/
+* Block explorer here: https://unicity.network/
 * Discord link here: https://discord.gg/PGzNZT5uVp
 * Start building on Unicity with its [State Transition SDK](https://github.com/unicitynetwork/state-transition-sdk)
 * See the tech in action by playing Quake running in a Unicity agent here https://quake.unicity.network/
