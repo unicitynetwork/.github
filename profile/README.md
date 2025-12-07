@@ -19,7 +19,7 @@ All blockchain designs - Bitcoin, Ethereum, L1s, L2s, rollups, sidechains etc ha
 * See the tech in action by playing Quake running in a Unicity agent here https://quake.unicity.network/
 * [Unicity FAQ](https://docs.google.com/document/d/1cQ2Zom5zfk5HXj0fRlysYDarj245fIqO4sPfDYPCcTc/)
 * [Unicity Glossary](https://docs.google.com/document/d/1-6kmf5SqxGuQJGbtJ7wzUnBM7p8N8WsFgtFNH2x384A/)
-* [Unicity GUI Wallet](https://unicitynetwork.github.io/guiwallet/)
+* [Unicity Web Wallet](https://unicitynetwork.github.io/webwallet/)
 
 The Unicity platform offers a modular architecture with distinct layers, each serving a unique role in the decentralized stack:
 
