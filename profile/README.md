@@ -14,8 +14,8 @@ Get started with [**Unicity AgentSphere**](https://sphere.unicity.network/) - a 
 ### Resources
 
 #### Documentation & Papers
-* 📄 **[Whitepaper](https://github.com/unicitynetwork/whitepaper)**
-* 📘 **[ZK Bluepaper](https://github.com/unicitynetwork/aggr-layer-paper/releases/tag/latest)**
+* 📄 **[Whitepaper](https://github.com/unicitynetwork/whitepaper/releases/download/latest/Unicity.pdf)**
+* 📘 **[ZK Bluepaper](https://github.com/unicitynetwork/aggr-layer-paper/releases/download/latest/aggregation-layer.pdf)**
 * 🎓 **[Academic Paper: Execution Model](https://github.com/unicitynetwork/execution-model-tex/releases/download/latest/unicity-execution-layer.pdf)** (Formal Privacy & Security Model)
 * ❓ **[Unicity FAQ](https://docs.google.com/document/d/1cQ2Zom5zfk5HXj0fRlysYDarj245fIqO4sPfDYPCcTc/)**
 * 📖 **[Glossary](https://docs.google.com/document/d/1-6kmf5SqxGuQJGbtJ7wzUnBM7p8N8WsFgtFNH2x384A/)**
