@@ -56,7 +56,7 @@ Implements Trustless Sparse Merkle Trees (SMT) and Distributed Hash Trees (DHT).
 ### 4. 💱 State Transition SDKs
 A framework for managing assets off-chain with on-chain security guarantees.
 * **Role**: Tokens are managed, stored, and transferred off-chain. Only cryptographic commitments are published on-chain to prevent double-spending.
-* **Key Repos**: [`TypeScript`](https://github.com/unicitynetwork/state-transition-sdk) | [`Java`](https://github.com/unicitynetwork/java-state-transition-sdk) | [`Rust (Experimental`)](https://github.com/unicitynetwork/rust-state-transition-sdk)
+* **Key Repos**: [`TypeScript`](https://github.com/unicitynetwork/state-transition-sdk) | [`Java`](https://github.com/unicitynetwork/java-state-transition-sdk) | [`Rust (Experimental)`](https://github.com/unicitynetwork/rust-state-transition-sdk)
 
 ### 5. 🤖 Unicity Orchestrator
 The runtime for the Autonomous Agentic Internet. 
