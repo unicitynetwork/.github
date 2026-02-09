@@ -15,14 +15,15 @@ Get started with [**Unicity AgentSphere**](https://sphere.unicity.network/) - a 
 
 #### Documentation & Papers
 * 📄 **[Whitepaper](https://github.com/unicitynetwork/whitepaper/releases/download/latest/Unicity.pdf)**
-* 📘 **[ZK Bluepaper](https://github.com/unicitynetwork/aggr-layer-paper/releases/download/latest/aggregation-layer.pdf)**
-* 🎓 **[Academic Paper: Execution Model](https://github.com/unicitynetwork/execution-model-tex/releases/download/latest/unicity-execution-layer.pdf)** (Formal Privacy & Security Model)
+* 📘 **[Technical Yellowpaper](https://github.com/unicitynetwork/unicity-yellowpaper-tex/releases/download/latest/unicity-yellowpaper.pdf)**, **[ZK Bluepaper](https://github.com/unicitynetwork/aggr-layer-paper/releases/download/latest/aggregation-layer.pdf)**
+* 🎓 **Formal Papers with security proofs: [Execution Model (security and privacy)](https://github.com/unicitynetwork/execution-model-tex/releases/download/latest/unicity-execution-layer.pdf)**, **[Unicity Programming: Predicates and Atomic Swaps](https://github.com/unicitynetwork/unicity-predicates-tex/releases/download/latest/unicity-predicates.pdf)**
 * ❓ **[Unicity FAQ](https://docs.google.com/document/d/1cQ2Zom5zfk5HXj0fRlysYDarj245fIqO4sPfDYPCcTc/)**
 * 📖 **[Glossary](https://docs.google.com/document/d/1-6kmf5SqxGuQJGbtJ7wzUnBM7p8N8WsFgtFNH2x384A/)**
+* 👾 **[Ask Viktor](https://sphere.unicity.network/#/agents/ai)** (chatbot with Unicity knowledge)
 
 #### Tools & Ecosystem
-* 🌐 **[Official Website](https://www.unicity.ai/)**
-* 🌐 **[Unicity AgentSphere](https://sphere.unicity.network/)**
+* 🌅 **[Official Website](https://www.unicity.ai/)**
+* ✨ **[Unicity AgentSphere](https://sphere.unicity.network/)**
 * 🔍 **[Block Explorer](https://unicity.network/)**
 * 👛 **[Web Wallet](https://unicitynetwork.github.io/webwallet/)**
 * 🛠️ **[Start Building (JS SDK)](https://github.com/unicitynetwork/state-transition-sdk)**
@@ -38,12 +39,12 @@ Main Unicity components designed to power the agent economy:
 ### 1. ⚒️ Proof of Work
 The foundational trust layer anchoring the entire system.
 * **Role**: Provides immutable security and prevents history rewriting.
-* **Tech**: A Bitcoin fork using the RandomX hash function.
+* **Tech**: A Bitcoin fork using the RandomX PoW function.
 * **Key Repo**: [`unicity-pow`](https://github.com/unicitynetwork/unicity-pow)
 
 ### 2. ⛓️ BFT Consensus
 Provides fast, Byzantine Fault Tolerant consensus to anchor the aggregation layer.
-* **Role**: Commits state roots to the PoW chain with fast 1-second rounds.
+* **Role**: Commits state roots with fast 1-second finality.
 * **Tech**: Custom BFT implementation (Golang).
 * **Key Repo**: [`bft-core`](https://github.com/unicitynetwork/bft-core)
 
