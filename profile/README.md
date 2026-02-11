@@ -16,7 +16,7 @@ Get started with [**Unicity AgentSphere**](https://sphere.unicity.network/) - a 
 #### Documentation & Papers
 * 📄 **[Whitepaper](https://github.com/unicitynetwork/whitepaper/releases/download/latest/Unicity.pdf)**
 * 📘 **[Technical Yellowpaper](https://github.com/unicitynetwork/unicity-yellowpaper-tex/releases/download/latest/unicity-yellowpaper.pdf)**, **[ZK Bluepaper](https://github.com/unicitynetwork/aggr-layer-paper/releases/download/latest/aggregation-layer.pdf)**
-* 🎓 **Formal Papers with security proofs: [Execution Model (security and privacy)](https://github.com/unicitynetwork/execution-model-tex/releases/download/latest/unicity-execution-layer.pdf)**, **[Unicity Programming: Predicates and Atomic Swaps](https://github.com/unicitynetwork/unicity-predicates-tex/releases/download/latest/unicity-predicates.pdf)**
+* 🎓 **[Unicity Execution Model](https://github.com/unicitynetwork/execution-model-tex/releases/download/latest/unicity-execution-layer.pdf)**, **[Unicity Programming: Predicates and Atomic Swaps](https://github.com/unicitynetwork/unicity-predicates-tex/releases/download/latest/unicity-predicates.pdf)** (formal papers with security proofs)
 * ❓ **[Unicity FAQ](https://docs.google.com/document/d/1cQ2Zom5zfk5HXj0fRlysYDarj245fIqO4sPfDYPCcTc/)**
 * 📖 **[Glossary](https://docs.google.com/document/d/1-6kmf5SqxGuQJGbtJ7wzUnBM7p8N8WsFgtFNH2x384A/)**
 * 👾 **[Ask Viktor](https://sphere.unicity.network/#/agents/ai)** (chatbot with Unicity knowledge)
@@ -65,7 +65,7 @@ The runtime for the Autonomous Agentic Internet.
 * **Capabilities**: Agnostic verifiable discovery, addressing, communication, storage, and execution environments for AI agents.
 * **Key Repo**: [`Unicity Orchestrator`](https://github.com/unicitynetwork/unicity-orchestrator)
 
-### 6. 🤖 Unicity AgentSphere
+### 6. ✨ Unicity AgentSphere
 A multifunctional Web3 platform with integrated crypto wallet, specialized AI agents and P2P functionality.
 * **Role**: Unicity AgentSphere is a modern decentralized application built on the concept of agents — specialized AI interfaces for various activities: sports betting, gaming, merchandise shopping, P2P crypto trading, trivia, direct messaging, AI assistance, etc.
 * **Key Repo**: [`AgentSphere`](https://github.com/unicitynetwork/sphere)
