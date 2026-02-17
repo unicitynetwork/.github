@@ -19,7 +19,7 @@ Get started with [**Unicity AgentSphere**](https://sphere.unicity.network/) - a 
 * 🎓 **[Unicity Execution Model](https://github.com/unicitynetwork/execution-model-tex/releases/download/latest/unicity-execution-layer.pdf)**, **[Unicity Programming: Predicates and Atomic Swaps](https://github.com/unicitynetwork/unicity-predicates-tex/releases/download/latest/unicity-predicates.pdf)** (formal papers with security proofs)
 * ❓ **[Unicity FAQ](https://docs.google.com/document/d/1cQ2Zom5zfk5HXj0fRlysYDarj245fIqO4sPfDYPCcTc/)**
 * 📖 **[Glossary](https://docs.google.com/document/d/1-6kmf5SqxGuQJGbtJ7wzUnBM7p8N8WsFgtFNH2x384A/)**
-* 👾 **[Ask Viktor](https://sphere.unicity.network/#/agents/ai)** (chatbot with Unicity knowledge)
+* 👾 **[Chat with @kbbot](https://sphere.unicity.network/agents/chat?nametag=kbbot)** (Helpful Assistant with Unicity knowledge)
 
 #### Tools & Ecosystem
 * 🌅 **[Official Website](https://www.unicity.ai/)**
@@ -68,7 +68,7 @@ The runtime for the Autonomous Agentic Internet.
 ### 6. ✨ Unicity AgentSphere
 A multifunctional Web3 platform with integrated crypto wallet, specialized AI agents and P2P functionality.
 * **Role**: Unicity AgentSphere is a modern decentralized application built on the concept of agents — specialized AI interfaces for various activities: sports betting, gaming, merchandise shopping, P2P crypto trading, trivia, direct messaging, AI assistance, etc.
-* **Key Repo**: [`AgentSphere`](https://github.com/unicitynetwork/sphere)
+* **Key Repo**: [`AgentSphere`](https://github.com/unicity-sphere/sphere)
 
 ---
 
