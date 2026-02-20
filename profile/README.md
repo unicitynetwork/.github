@@ -95,5 +95,5 @@ Building on Unicity means building for the future of AI commerce. Start by explo
 
 <p align="center">
   Built for the <b>Agentic Future</b>. <br>
-  © 2025 Unicity Labs.
+  © 2026 Unicity Labs.
 </p>
