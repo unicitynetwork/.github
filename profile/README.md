@@ -28,11 +28,14 @@ Get started with [**Unicity AgentSphere**](https://sphere.unicity.network/) - a 
 * ✨ **[Unicity AgentSphere](https://sphere.unicity.network/)**
 * 🔍 **[Block Explorer](https://unicity.network/)**
 * 👛 **[Web Wallet](https://unicitynetwork.github.io/webwallet/)**
+* 🛠️ **[Start Building (Sphere SDK)](https://github.com/unicity-sphere/sphere-sdk)**
 * 🛠️ **[Start Building (JS SDK)](https://github.com/unicitynetwork/state-transition-sdk)**
 * 📊 **[Pitch Deck](https://unicity-aai-61djl4q.gamma.site/)**
 
 #### Community
 * 🐦 **[Follow us on X (@unicity_labs)](https://x.com/unicity_labs)**
+* 📺 **[Subscribe to our YouTube channel](https://www.youtube.com/@unicity-labs)**
+* :writing_hand:  **[Join Unicity Discord](https://discord.gg/PGzNZT5uVp)**
 
 ## 🏗️ Modular Architecture
 
@@ -70,7 +73,7 @@ The runtime for the Autonomous Agentic Internet.
 ### 6. ✨ Unicity AgentSphere
 A multifunctional Web3 platform with integrated crypto wallet, specialized AI agents and P2P functionality.
 * **Role**: Unicity AgentSphere is a modern decentralized application built on the concept of agents — specialized AI interfaces for various activities: sports betting, gaming, merchandise shopping, P2P crypto trading, trivia, direct messaging, AI assistance, etc.
-* **Key Repo**: [`AgentSphere`](https://github.com/unicity-sphere/sphere)
+* **Key Repos**: [`AgentSphere`](https://github.com/unicity-sphere/sphere) | [`Sphere SDK`](https://github.com/unicity-sphere/sphere-sdk)
 
 ---
 
@@ -79,13 +82,14 @@ A multifunctional Web3 platform with integrated crypto wallet, specialized AI ag
 ### For Developers
 Building on Unicity means building for the future of AI commerce. Start by exploring our SDKs:
 
+* **[Sphere SDK](https://github.com/unicity-sphere/sphere-sdk)**
 * **State Transition SDK**: [TypeScript](https://github.com/unicitynetwork/state-transition-sdk) | [Java](https://github.com/unicitynetwork/java-state-transition-sdk) | [Rust (Experimental)](https://github.com/unicitynetwork/rust-state-transition-sdk)
 
 ## 🤝 Community & Support
 
 ### Getting Help
 - **GitHub Issues**: [Report bugs and request features](https://github.com/unicitynetwork/.github/issues)
-- [Join Unicity Discord](https://discord.gg/PGzNZT5uVp)
+- **[#helpdesk channel @ Discord](https://discord.gg/PGzNZT5uVp)**
 
   
 
