@@ -11,6 +11,8 @@ Get started with [**Unicity AgentSphere**](https://sphere.unicity.network/) - a 
 * **On-Chain Security**: the blockchain anchors state transitions, preventing double-spending and ensuring finality without executing the logic itself.
 * **Verifiable Agents**: the Agent Execution Layer provides a framework for verifiable, Turing-complete computations, allowing agents to act autonomously with cryptographic proofs of validity.
 
+:exclamation: **Phase I - community mining** officially ended with a hard fork at block 450 000 on 19th February 2026. There will be no more public mining until TGE and no block rewards until TGE. All tx fees are being burnt. However, transactions work as usual. :exclamation:
+
 ### Resources
 
 #### Documentation & Papers
@@ -73,11 +75,6 @@ A multifunctional Web3 platform with integrated crypto wallet, specialized AI ag
 ---
 
 ## 🚀 Get Started
-
-### How to Start Mining in 5 minutes 
-1. Generate a wallet and mining address with Unicity Web Wallet here: https://unicitynetwork.github.io/webwallet/
-2. Download the binary or build the miner client from source here https://github.com/unicitynetwork/alpha-miner
-3. Follow the [instructions how to connect to a mining pool](https://github.com/unicitynetwork/alpha-miner?tab=readme-ov-file#pool-mining-stratum).
 
 ### For Developers
 Building on Unicity means building for the future of AI commerce. Start by exploring our SDKs:
