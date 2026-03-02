@@ -45,7 +45,7 @@ Main Unicity components designed to power the agent economy:
 The foundational trust layer anchoring the entire system.
 * **Role**: Provides immutable security and prevents history rewriting.
 * **Tech**: A Bitcoin fork using the RandomX PoW function.
-* **Key Repo**: [`unicity-pow`](https://github.com/unicitynetwork/unicity-pow)
+* **Key Repo**: [`unicity-node`](https://github.com/unicitynetwork/unicity-node)
 
 ### 2. ⛓️ BFT Consensus
 Provides fast, Byzantine Fault Tolerant consensus to anchor the aggregation layer.
