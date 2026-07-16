@@ -27,7 +27,6 @@ Get started with [**Unicity AgentSphere**](https://sphere.unicity.network/) - a 
 * 👛 **[Web Wallet](https://unicitynetwork.github.io/webwallet/)**
 * 🛠️ **[Start Building (Sphere SDK)](https://github.com/unicity-sphere/sphere-sdk)**
 * 🛠️ **[Start Building (JS SDK)](https://github.com/unicitynetwork/state-transition-sdk)**
-* 📊 **[Pitch Deck](https://unicity-aai-61djl4q.gamma.site/)**
 
 #### Community
 * 🐦 **[Follow us on X (@unicity_labs)](https://x.com/unicity_labs)**
