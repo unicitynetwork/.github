@@ -18,7 +18,6 @@ Get started with [**Unicity AgentSphere**](https://sphere.unicity.network/) - a 
 * 📘 **[Technical Yellowpaper](https://github.com/unicitynetwork/unicity-yellowpaper-tex/releases/download/latest/unicity-yellowpaper.pdf)**, **[ZK Bluepaper](https://github.com/unicitynetwork/aggr-layer-paper/releases/download/latest/aggregation-layer.pdf)**
 * 🎓 **[Unicity Execution Model](https://github.com/unicitynetwork/execution-model-tex/releases/download/latest/unicity-execution-layer.pdf)**, **[Unicity Programming: Predicates and Atomic Swaps](https://github.com/unicitynetwork/unicity-predicates-tex/releases/download/latest/unicity-predicates.pdf)** (formal papers with security proofs)
 * ❓ **[Unicity FAQ](https://docs.google.com/document/d/1cQ2Zom5zfk5HXj0fRlysYDarj245fIqO4sPfDYPCcTc/)**
-* 📖 **[Glossary](https://docs.google.com/document/d/1-6kmf5SqxGuQJGbtJ7wzUnBM7p8N8WsFgtFNH2x384A/)**
 * 👾 **[Chat with @kbbot](https://sphere.unicity.network/agents/chat?nametag=kbbot)** (Helpful Assistant with Unicity knowledge)
 
 #### Tools & Ecosystem
