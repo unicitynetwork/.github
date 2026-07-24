@@ -21,7 +21,8 @@ Get started with [**Unicity AgentSphere**](https://sphere.unicity.network/) - a 
 * 👾 **[Chat with @kbbot](https://sphere.unicity.network/agents/chat?nametag=kbbot)** (Helpful Assistant with Unicity knowledge)
 
 #### Tools & Ecosystem
-* 🌅 **[Official Website](https://www.unicity.ai/)**
+* 🌐 **[Unicity Platform](https://unicity.network/)** — protocol, use cases, wallet, developer docs
+* 🤖 **[Unicity AOS](https://www.unicity.ai/)** — The Operating System for Autonomous AI
 * ✨ **[Unicity AgentSphere](https://sphere.unicity.network/)**
 * 👛 **[Web Wallet](https://unicitynetwork.github.io/webwallet/)**
 * 🛠️ **[Start Building (Sphere SDK)](https://github.com/unicity-sphere/sphere-sdk)**
