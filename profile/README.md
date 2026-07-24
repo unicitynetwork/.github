@@ -53,9 +53,10 @@ A framework for managing assets off-chain with on-chain security guarantees.
 * **Role**: Tokens are managed, stored, and transferred off-chain. Only cryptographic commitments are published on-chain to prevent double-spending.
 * **Key Repos**: [`TypeScript`](https://github.com/unicitynetwork/state-transition-sdk-js) | [`Java`](https://github.com/unicitynetwork/state-transition-sdk-java) | [`Rust`](https://github.com/unicitynetwork/state-transition-sdk-rust)
 
-### 4. 🤖 Astrid
+### 4. 🤖 Unicity AOS
 An open runtime for enterprise AI agents. Any LLM, any framework. Enforcement at the kernel boundary. Run AI agents and the tools they use without having to trust them.
-* **Key Repo**: [`Astrid`](https://github.com/unicity-astrid/astrid)
+* **Role**: Unicity AOS is a modular operating system for AI agents, composed of independently swappable capsules (models, tools, memory, skills, frontends) with explicit authority boundaries, plus Unicity Audit for anchoring sensitive actions on the Unicity blockchain.
+* **Key Repos**: [`AOS Community Edition`](https://github.com/unicity-aos/aos-ce) | [`All AOS Repositories`](https://github.com/unicity-aos)
 
 ### 5. ✨ AgentSphere
 A multifunctional Web3 platform with integrated crypto wallet, specialized AI agents and P2P functionality.
